@@ -16,7 +16,7 @@ local plugins = {
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
-      ensure_installed = { "html", "css", "javascript", "typescript", "cpp", "svelte", "php" },
+      ensure_installed = { "html", "css", "javascript", "typescript", "cpp", "svelte", "php", "go"},
     },
     autotag = {
       enable = true,
@@ -34,8 +34,8 @@ local plugins = {
         "lua-language-server",
         "svelte-language-server",
         "typescript-language-server",
-        "phpactor",
         "intelephense",
+        "gopls"
       },
     },
   },
